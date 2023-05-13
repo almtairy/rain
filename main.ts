@@ -1,7 +1,8 @@
-let rain: game.LedSprite = null
-let rain1: game.LedSprite = null
-let rain2: game.LedSprite = null
-basic.forever(function () {
+let rain : game.LedSprite = null
+let rain1 : game.LedSprite = null
+let rain2 : game.LedSprite = null
+basic.forever(function on_forever() {
+    
     rain = game.createSprite(randint(0, 4), 0)
     rain1 = game.createSprite(randint(0, 4), 0)
     rain2 = game.createSprite(randint(0, 4), 0)
